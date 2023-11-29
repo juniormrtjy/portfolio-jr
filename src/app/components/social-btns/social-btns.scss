@@ -1,0 +1,32 @@
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  a {
+    height: 50px;
+    width: 50px;
+
+    border: 1px solid #fff;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+
+    svg path {
+      transition: .3s;
+    }
+
+    &:hover {
+      border-color: #aaaaaa;
+
+
+      svg path {
+        fill: #aaa;
+      }
+    }
+  }
+}
