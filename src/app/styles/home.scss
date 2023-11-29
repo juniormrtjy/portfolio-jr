@@ -22,7 +22,8 @@
 
     .btn-primary {
       background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
-      width: 325px;
+      max-width: 325px;
+      width: 100%;
       padding: 12px;
       border-radius: 24px;
       color: var(--text-primary);
